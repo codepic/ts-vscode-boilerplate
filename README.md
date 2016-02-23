@@ -15,6 +15,9 @@ $ unzip master.zip
 ```
 $ cd ts-vscode-boilerplate
 $ npm install
+$ npm install gulp --global
+$ npm install wallabify --global
+$ npm install typings --global
 $ typings install
 ```
 
