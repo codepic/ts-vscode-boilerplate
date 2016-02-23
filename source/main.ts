@@ -1,6 +1,7 @@
-import * as $ from "jquery";
-import Greeter from "./entities/greeter";
+import * as $ from 'jquery';
+import Greeter from './entities/greeter';
 
-let greeter = new Greeter("world!");
+let greeter = new Greeter('world!');
 let msg = greeter.greet();
-$("body").html(`<h1>${msg}</h1>`);
+$('body').html(`<h1>${msg}</h1>`);
+window.location.replace('?key=value');
